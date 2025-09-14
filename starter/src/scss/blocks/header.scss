@@ -1,0 +1,27 @@
+.header {
+  @include flex-center;
+  justify-content: space-between;
+  padding: $spacing-medium;
+  background: $secondary-color;
+  color: white;
+  position: sticky;
+  top: 0;
+
+  &__logo {
+    font-weight: bold;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: $spacing-medium;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+  }
+}
+ 
